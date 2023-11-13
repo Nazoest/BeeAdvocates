@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBeeAdvocate</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background: orange;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: #555;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .home {
+            background: url('./images/Bee_background.jpeg') center/cover no-repeat;
+            height: 100vh;
+/*             display: flex;
+    */      align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .info {
+            padding: 20px;
+        }
+
+        .info img {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+            display: block;
+            /* Apply lazy loading */
+            transition: opacity 0.3s;
+            opacity: 0;
+            will-change: opacity;
+        }
+
+        .info img.loaded {
+            opacity: 1;
+        }
+        h2{
+            width:100%
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GreenBeeAdvocate</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#info">Info</a>
+        </nav>
+    </header>
+
+   
+
+    <section id="home" class="home">
+        <h2>SAVE THE BEE SAVE THE ENVIRONMENT!!</h2>
+        <p>
+        </p>
+        <p>
+            Explore our website to learn more about these incredible creatures, discover interesting facts about bees, and find out how you can contribute to their conservation. Together, let's create a world where bees thrive, ensuring the health of our planet and future generations.
+        </p>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Protect Bees</h2>
+        <p>
+            Did you know that these tiny pollinators, our beloved bees, play a colossal role in our ecosystem? They tirelessly flit from flower to flower, pollinating crops and ensuring the growth of fruits, vegetables, and nuts that make up a significant portion of our diets. Bees are the unsung heroes behind the scenes, contributing to biodiversity, food security, and a vibrant, flourishing planet. At GreenBeeAdvocate.com, we are on a mission to raise awareness about the critical role bees play in sustaining life, as we know it. Our platform is a hive of information, buzzing with articles, tips, and resources dedicated to bee conservation. Join us in our pursuit of a greener tomorrow! Discover the fascinating world of bees, learn about the threats they face, and explore practical ways you can contribute to their conservation. Whether you are a seasoned environmentalist or just beginning your green journey, GreenBeeAdvocate.com is your ally in fostering a healthier planet.
+           </p>
+            <h2>The Buzz on Bee Decline:</h2>
+            
+            <h3> Symphony in Peril:</h3>
+            <p>Imagine a world without the vibrant hues of blooming flowers, the luscious taste of ripe fruits, and the rich aroma of coffee. This grim reality becomes a possibility as bee populations face a myriad of threats, from habitat loss and pesticide exposure to climate change and disease.
+            </p>
+            <h3>Habitat Loss:</h3>
+            <p>Urbanization and agricultural expansion have encroached upon the natural habitats of bees, limiting their foraging grounds and disrupting the delicate balance they maintain with the environment. As natural landscapes give way to concrete jungles, the bees are left with fewer places to call home.
+            </p><h3> Pesticide Peril:</h3>
+            <p>The convenience of modern agriculture comes at a cost. Pesticides, designed to protect crops from pests, inadvertently harm beneficial insects like bees. The toxic chemicals can interfere with the bees' navigational abilities, reproductive health, and even their immune systems, leading to a decline in overall population.
+            </p>
+            <h3>Climate Conundrum:</h3>
+            <p>Bees are finely tuned to the seasons, relying on specific temperature and weather conditions for optimal foraging and pollination. Climate change disrupts these natural cycles, affecting the availability of flowering plants and throwing off the delicate timing that bees depend on for their survival.
+            </p>
+            <h2> Buzzworthy Solutions:</h2>
+            <h3>Bee-Friendly Gardens:</h3>     
+        <p>
+            Every backyard can become a sanctuary for bees. Planting bee-friendly flowers and avoiding the use of harmful pesticides can create havens for these vital pollinators. It is a simple yet impactful way for individuals to contribute to the preservation of bee populations.
+        </p>
+        <h3>Sustainable Agriculture</h3>
+        <p>
+            Farmers can adopt bee-friendly farming practices, such as reducing pesticide use, preserving natural habitats within agricultural landscapes, and employing crop rotation techniques. These steps not only protect bees but also contribute to the overall health of ecosystems.
+        </p>
+        <p>
+            <h3>Global Collaboration:</h3>
+<p>The decline of bee populations is a global issue that requires international cooperation. Governments, environmental organizations, and communities worldwide must work together to address the root causes of bee decline and implement policies that promote sustainable practices.
+</p>
+<h3>Bee the Change:</h3>
+<p>The threatened buzz serves as a warning, urging us to take action before it is too late. By understanding the challenges facing bee populations and adopting bee-friendly practices, we can collectively ensure a harmonious coexistence with these essential pollinators. Together, let us strive to preserve the symphony of the natural world and secure a thriving future for bees and the ecosystems they support. Buzz on!
+</p>
+<h3>Beneath the Petals: A Bee's Advocate</h3>
+
+In meadows kissed by sunlit gold,
+Where flowers bloom, their tales unfold,
+A buzzing choir, a dance in air,
+The humble bee, beyond compare.
+
+In gardens green and fields afar,
+They toil as stewards, nature's czar,
+A tapestry woven with delicate wing,
+A symphony of life, a vital string.
+
+Through petals soft, they weave their flight,
+A ballet of bees, a pure delight,
+Yet deeper than the honeyed sip,
+Lies a role profound, a vital script.
+
+For in their hum, a secret shared,
+A climate dance, a truth declared,
+Conservation's plea, a sacred vow,
+To nurture bees, we nurture now.
+
+        </p>
+    </section>
+    
+
+    <section id="info" class="info">
+        <h2>Info about Bees</h2>
+        <p>Here is some information about bees:</p>
+        <!-- Lazy-loaded images -->
+        <img src="bee1.jpg" alt="Bee 1" loading="lazy" class="lazy-load">
+        <img src="bee2.jpg" alt="Bee 2" loading="lazy" class="lazy-load">
+        <img src="bee3.jpg" alt="Bee 3" loading="lazy" class="lazy-load">
+    </section>
+
+    <script>
+        // Implement lazy loading
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyloadImages = document.querySelectorAll(".lazy-load");
+
+            var lazyloadThrottleTimeout;
+            function lazyload () {
+                if(lazyloadThrottleTimeout) {
+                    clearTimeout(lazyloadThrottleTimeout);
+                }    
+
+                lazyloadThrottleTimeout = setTimeout(function() {
+                    var scrollTop = window.pageYOffset;
+                    lazyloadImages.forEach(function(img) {
+                        if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                            img.src = img.dataset.src;
+                            img.classList.remove('lazy-load');
+                            img.classList.add('loaded');
+                        }
+                    });
+                    if(lazyloadImages.length === 0) { 
+                        document.removeEventListener("scroll", lazyload);
+                        window.removeEventListener("resize", lazyload);
+                        window.removeEventListener("orientationChange", lazyload);
+                    }
+                }, 20);
+            }
+
+            document.addEventListener("scroll", lazyload);
+            window.addEventListener("resize", lazyload);
+            window.addEventListener("orientationChange", lazyload);
+        });
+    </script>
+</body>
+</html>
