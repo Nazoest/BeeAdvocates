@@ -6,31 +6,53 @@ body {
 
 .header {
     background: #ffa500;
-    color: white;
+    color: green;
     text-align: center;
+    margin: 0%;
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    opacity: 0.95;
 }
-
+.header h1 {
+    margin: 0%;
+}
+#box{
+    background-color: #ffa500;
+    height: 200px;
+    width:98vw ;
+    top: -100px;
+    color: black;
+    padding: 4px;
+    padding-right: 2rem;
+}
 
 nav {
-    display: flex;
-   background: #555;
-   padding: 0.5em;
- justify-content: space-between;
-    
+   display: flex;
+   align-items: center;
 }
-
 
 nav a {
     color: white;
-    text-decoration: none;
-    justify-content:flex-end;
-
+    padding: 0.5em;
+    text-decoration:none;
+    display: flex;
+    margin: 0 10px;
+    justify-content:space-between;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:aquamarine
 }
 
 .home {
     background: url('../images/Bee_background.jpeg') center/cover no-repeat;
     height: 100vh;
-    justify-content: center;
+   justify-content: center;
     text-align: center; 
     color:white
 }
@@ -38,11 +60,12 @@ nav a {
 .home h2{
     font-size: 5rem;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
     
 }
 
 .home p{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 .info {
     padding: 20px;
@@ -62,9 +85,67 @@ nav a {
     opacity: 1;
 }
 section{
-    border: black solid;
-    margin-bottom: 3px;
-   /*  width:33%;
-    display: flex;
-    justify-content: space-evenly; */
+/*     border: rgb(55, 56, 50) solid;
+ */    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    /* display: flex;
+    justify-content: space-around; */
 }
+.decline{
+    border:black solid;
+    background-color: #ffa500;
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+}
+.half1{
+    width:50vw
+}
+.half2{
+    width:50vw
+}
+.solutions{
+    border:black solid;
+    background-color: #ffa500;
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+}
+.half3{
+    width:50vw
+}
+.half4{
+    width:50vw
+}
+
+.poem h3{
+    display: flex;
+    justify-content: center;
+}
+.poem {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffa500;
+  }
+  
+  .poem > div {
+/*    flex: 1;
+ */     margin: 0 10px; /* Adjust margin as needed */
+     text-align: justify;
+   }
+  
+  .poem p {
+    margin: 0 0 10px; /* Adjust margin as needed */
+   } 
+  
+   .poem-header{
+    display: flex;
+    justify-content: center;
+    background-color: #ffa500;
+   }
+
+   .last{
+    background-color: #ffa500;
+    margin: 0;
+   }
