@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background: #ffa500;
+    color: white;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+   background: #555;
+   padding: 0.5em;
+ justify-content: space-between;
+    
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    justify-content:flex-end;
+
+}
+
+.home {
+    background: url('../images/Bee_background.jpeg') center/cover no-repeat;
+    height: 100vh;
+    justify-content: center;
+    text-align: center; 
+    color:white
+}
+
+.home h2{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.home p{
+    font-size: 0.8rem;
+}
+.info {
+    padding: 20px;
+}
+
+.info img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    display: block;
+    transition: opacity 0.3s;
+    opacity: 0;
+    will-change: opacity;
+}
+
+.info img.loaded {
+    opacity: 1;
+}
+section{
+    border: black solid;
+    margin-bottom: 3px;
+   /*  width:33%;
+    display: flex;
+    justify-content: space-evenly; */
+}
