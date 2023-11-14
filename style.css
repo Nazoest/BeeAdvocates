@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 .home {
-    background: url('../images/Bee_background.jpeg') center/cover no-repeat;
+    background: url('./images/Bee_background.jpeg') center/cover no-repeat;
     height: 100vh;
    justify-content: center;
     text-align: center; 
