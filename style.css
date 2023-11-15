@@ -149,3 +149,67 @@ section{
     background-color: #ffa500;
     margin: 0;
    }
+
+   @media screen and (max-width: 768px) {
+    /* Common adjustments for smaller screens */
+
+    .header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .home h2 {
+        font-size: 3rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+
+    .info img {
+        max-width: 100%;
+    }
+
+    section, .decline, .solutions, .poem>div {
+        width: 100%;
+    }
+}
+
+/* Media Queries for Phones */
+@media screen and (max-width: 480px) {
+    /* Additional adjustments for smaller phones */
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    #box {
+        height: 150px;
+        padding: 2px;
+        padding-right: 1rem;
+    }
+
+    .home h2 {
+        font-size: 2.5rem;
+    }
+
+    .home p {
+        font-size: 0.9rem;
+    }
+
+    .info {
+        padding: 10px;
+    }
+
+    .info img {
+        margin: 10px 0;
+    }
+}
